@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+/* Heading  */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Font color  */
+#title,#testimonials,#cta,.icn
+{
+    color: #fff;
+}
+p {
+    color: #8f8f8f;
+}
+.icn
+{
+    color: #ef8172;
+}
+.icn:hover
+{
+    color: #ff4c68;
+}
+/* Background color  */
+#title,#cta
+{
+    background-color: #ff4c68;
+}
+#testimonials,#press
+{
+background-color: #ef8172;
+}
+#features{
+    background-color: #fff;
+}
+/* Text-Align  */
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+
+
+/* Navigation bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+
+/* download button */
+.btn {
+    margin: 1.2rem 1.2rem;
+}
+/* Title  */
+#title
+{
+    text-align: center;
+}
+
+/* title image */
+.timg {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width:1045px) {
+    .timg {
+        width: 40%;
+        position: static;
+        transform: none;
+    }
+}
+
+@media (mid-width:1000px) and (max-width:1045px) {
+    .timg {
+        position: static;
+        transform: none;
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+.features-heading
+{
+        font-size: 1.5rem;
+}
+
+.icn {
+    margin-bottom: 1rem;
+}
+
+#feature-items {
+    padding: 5%;
+}
+
+/* Testimonials */
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+}
+.testimonial-text
+{
+    font-size: 3rem;
+     line-height: 1.5;
+}
+
+/* Press */
+#press {
+    padding-bottom: 5%;
+}
+
+.preimg {
+    margin: 0 2%;
+    width: 18%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+    padding: 60px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#footer {
+    padding: 7% 15%;
+}
+
+#cta {
+    padding: 7% 15%;
+}
+
+.f-icon {
+    padding-left: 5px;
+}
